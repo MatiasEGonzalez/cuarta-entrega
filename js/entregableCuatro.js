@@ -22,7 +22,9 @@ for (let i = 1; i <= 10; i++) {
     if(calcular == "no"){
         break;
     }
-    if (calcular == "si"){
+    else if (calcular == "si"){
         calculadora();
+    }else{
+        alert("Ingrese una opcion valida")
     }
 }
